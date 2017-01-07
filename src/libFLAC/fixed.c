@@ -35,6 +35,7 @@
 #endif
 
 #include <math.h>
+#include <tgmath.h>
 #include <string.h>
 #include "share/compat.h"
 #include "private/bitmath.h"

@@ -35,6 +35,7 @@
 #endif
 
 #include <math.h>
+#include <tgmath.h>
 #include "share/compat.h"
 #include "FLAC/assert.h"
 #include "FLAC/format.h"

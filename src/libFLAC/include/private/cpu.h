@@ -89,7 +89,7 @@
     #define FLAC__FMA_SUPPORTED 1
   #endif
 #elif defined __GNUC__
-  #if (__GNUC__ > 4 || (__GNUC__ == 4 && __GNUC_MINOR__ >= 9)) /* since GCC 4.9 -msse.. compiler options aren't necessary */
+  #if ((__GNUC__ > 4 || (__GNUC__ == 4 && __GNUC_MINOR__ >= 9)) || __clang__) /* since GCC 4.9 -msse.. compiler options aren't necessary */
     #define FLAC__SSE_TARGET(x) __attribute__ ((__target__ (x)))
     #define FLAC__SSE_SUPPORTED 1
     #define FLAC__SSE2_SUPPORTED 1
