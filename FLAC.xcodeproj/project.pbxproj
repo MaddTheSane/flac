@@ -431,7 +431,7 @@
 				37CA8E120DD73E6F005C8CB6 /* window.h */,
 			);
 			name = private;
-			path = "../../external-libs/flac/src/libFLAC/include/private";
+			path = src/libFLAC/include/private;
 			sourceTree = SOURCE_ROOT;
 		};
 		73E195F10A0D18CE00D40234 /* protected */ = {
@@ -442,7 +442,7 @@
 				73E195FA0A0D191000D40234 /* stream_encoder.h */,
 			);
 			name = protected;
-			path = "../../external-libs/flac/src/libFLAC/include/protected";
+			path = src/libFLAC/include/protected;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
